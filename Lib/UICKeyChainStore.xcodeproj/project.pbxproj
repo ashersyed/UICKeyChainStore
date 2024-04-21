@@ -395,6 +395,10 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 143BF2921C1CD598002BE6B3 /* UICKeyChainStore.xcconfig */;
 			buildSettings = {
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -402,6 +406,10 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 143BF2921C1CD598002BE6B3 /* UICKeyChainStore.xcconfig */;
 			buildSettings = {
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
